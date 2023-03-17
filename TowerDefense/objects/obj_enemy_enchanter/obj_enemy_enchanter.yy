@@ -1,17 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_base_tower",
-  "spriteId": {
-    "name": "spr_placeholder_tower",
-    "path": "sprites/spr_placeholder_tower/spr_placeholder_tower.yy",
-  },
+  "name": "obj_enemy_enchanter",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_base_enemy",
+    "path": "objects/obj_base_enemy/obj_base_enemy.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,12 +25,10 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"projectileObject","varType":5,"value":"obj_base_projectile","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
 }

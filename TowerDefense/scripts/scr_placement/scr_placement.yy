@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "enemy_animation",
+  "name": "scr_placement",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

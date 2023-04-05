@@ -2,4 +2,4 @@
 
 
 // call function to do walking animation
-enemyMovement();
+enemyMovement(self);

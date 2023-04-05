@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_towerPlacementTest",
+  "name": "obj_towerPlacement",
   "spriteId": {
     "name": "spr_towerPlacementTest",
     "path": "sprites/spr_towerPlacementTest/spr_towerPlacementTest.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

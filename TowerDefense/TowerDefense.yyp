@@ -41,7 +41,7 @@
     {"id":{"name":"obj_tower_crossbow","path":"objects/obj_tower_crossbow/obj_tower_crossbow.yy",},"order":0,},
     {"id":{"name":"obj_projectile_icicle_launcher","path":"objects/obj_projectile_icicle_launcher/obj_projectile_icicle_launcher.yy",},"order":10,},
     {"id":{"name":"obj_projectile_zapper","path":"objects/obj_projectile_zapper/obj_projectile_zapper.yy",},"order":9,},
-    {"id":{"name":"obj_towerPlacementTest","path":"objects/obj_towerPlacementTest/obj_towerPlacementTest.yy",},"order":8,},
+    {"id":{"name":"obj_towerPlacement","path":"objects/obj_towerPlacement/obj_towerPlacement.yy",},"order":8,},
     {"id":{"name":"spr_placeholder_enemy_down","path":"sprites/spr_placeholder_enemy_down/spr_placeholder_enemy_down.yy",},"order":2,},
     {"id":{"name":"spr_placeholder_enemy","path":"sprites/spr_placeholder_enemy/spr_placeholder_enemy.yy",},"order":1,},
     {"id":{"name":"obj_button_main_exit","path":"objects/obj_button_main_exit/obj_button_main_exit.yy",},"order":0,},

@@ -1,4 +1,4 @@
-if (CheckPlacementAvailable())
+if (visible and CheckPlacementAvailable())
 {
 	pos = FindNearestPlacement()
 	xPos = pos[0]

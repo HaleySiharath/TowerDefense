@@ -8,6 +8,7 @@
     {"id":{"name":"obj_tower_freezer","path":"objects/obj_tower_freezer/obj_tower_freezer.yy",},"order":9,},
     {"id":{"name":"pt_enemy","path":"paths/pt_enemy/pt_enemy.yy",},"order":0,},
     {"id":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"order":2,},
+    {"id":{"name":"obj_stateManager","path":"objects/obj_stateManager/obj_stateManager.yy",},"order":9,},
     {"id":{"name":"obj_enemy_elemental","path":"objects/obj_enemy_elemental/obj_enemy_elemental.yy",},"order":5,},
     {"id":{"name":"obj_projectile_cannon","path":"objects/obj_projectile_cannon/obj_projectile_cannon.yy",},"order":8,},
     {"id":{"name":"obj_enemy_phoenix","path":"objects/obj_enemy_phoenix/obj_enemy_phoenix.yy",},"order":9,},

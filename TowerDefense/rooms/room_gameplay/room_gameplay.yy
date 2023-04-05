@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "GameplayRoom",
+  "name": "room_gameplay",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -34,9 +34,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_20EB7182","path":"rooms/GameplayRoom/GameplayRoom.yy",},
-    {"name":"inst_59FCA71B","path":"rooms/GameplayRoom/GameplayRoom.yy",},
-    {"name":"inst_6489F1E6","path":"rooms/GameplayRoom/GameplayRoom.yy",},
+    {"name":"inst_20EB7182","path":"rooms/room_gameplay/room_gameplay.yy",},
+    {"name":"inst_59FCA71B","path":"rooms/room_gameplay/room_gameplay.yy",},
+    {"name":"inst_6489F1E6","path":"rooms/room_gameplay/room_gameplay.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

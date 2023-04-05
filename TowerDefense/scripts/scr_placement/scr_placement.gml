@@ -1,7 +1,7 @@
 global.xStart = 0
-global.yStart = 0
+global.yStart = 17
 global.xEnd = 17
-global.yEnd = 17
+global.yEnd = 0
 
 function FindNearestPlacement()
 {
@@ -35,6 +35,18 @@ function CheckPlacementAvailable()
 	show_debug_message("found nearest placement")
 	xPos = pos[0]
 	yPos = pos[1]
+	show_debug_message("checking if this is goal")
+	if (global.xEnd == xPos and global.yEnd == yPos)
+	{
+		show_debug_message("is goal")
+		return false
+	}
+	show_debug_message("checking if this is start")
+	if (global.xStart == xPos and global.yStart == yPos)
+	{
+		show_debug_message("is start")
+		return false
+	}
 	show_debug_message("checking if grid space is available")
 	DebugGrid()
 	if (global.grid[xPos][yPos] == true)

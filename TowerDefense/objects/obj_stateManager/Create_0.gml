@@ -19,3 +19,10 @@ for (i = 0; i < 18; i++)
 		global.grid[i][j] = false
 	}
 }
+
+// Store enemy changes from upgrades
+global.enemyChanges = []
+for (i = 0; i <= 10; i++)
+{
+	array_insert(enemyChanges, 0, NewEnemyChanges())
+}

@@ -11,11 +11,11 @@ function NewEnemyChanges()
 function ApplyChanges(enemy)
 {
 	enemyId = enemy.enemyId
-	ApplyChanges(enemy, 0)
-	ApplyChanges(enemy, enemyId)
+	ApplyChange(enemy, 0)
+	ApplyChange(enemy, enemyId)
 }
 
-function ApplyChanges(enemy, enemyId)
+function ApplyChange(enemy, enemyId)
 {
 	changes = global.enemyChanges[enemyId]
 	enemy.pathSpeed *= changes.speedPercent

@@ -24,5 +24,7 @@ for (i = 0; i < 18; i++)
 global.enemyChanges = []
 for (i = 0; i <= 10; i++)
 {
-	array_insert(enemyChanges, 0, NewEnemyChanges())
+	array_insert(global.enemyChanges, 0, NewEnemyChanges())
 }
+
+UpdateEnemyPath()

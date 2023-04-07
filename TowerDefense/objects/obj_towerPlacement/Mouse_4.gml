@@ -4,4 +4,5 @@ if (visible and CheckPlacementAvailable())
 	xPos = pos[0]
 	yPos = pos[1]
 	global.grid[xPos][yPos] = true
+	UpdateEnemyPath()
 }

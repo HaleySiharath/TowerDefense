@@ -4,17 +4,21 @@ function StartPrep()
 	global.statePrep = true
 	global.stateWave = false
 	global.stateUpgrade = false
+	instance_create_layer(1620, 480, "UI", obj_btn_newTower)
+	instance_create_layer(1620, 780, "UI", obj_btn_nextWave)
 }
 
 function EndPrep()
 {
 	global.statePrep = false
+	instance_destroy(obj_btn_newTower)
+	instance_destroy(obj_btn_nextWave)
 }
 
 function StartWave()
 {
 	global.stateWave = true
-	global.statePrep = false
+	EndPrep()
 	global.stateUpgrade = false
 	global.currentWave++
 }
@@ -26,6 +30,7 @@ function EndWave()
 	{
 		HideInfo()
 	}
+	StartUpgrade()
 }
 
 function StartUpgrade()
@@ -33,11 +38,13 @@ function StartUpgrade()
 	global.stateUpgrade = true
 	global.stateWave = false
 	global.statePrep = false
+	EndUpgrade()
 }
 
 function EndUpgrade()
 {
 	global.stateUpgrade = false
+	StartPrep()
 }
 
 function ShowInfo()
@@ -65,11 +72,13 @@ function StopMove()
 function StartBuy()
 {
 	EndPrep()
+	instance_create_layer(1620, 780, "UI", obj_btn_cancel)
 	global.stateBuy = true
 }
 
 function StopBuy()
 {
+	instance_destroy(obj_btn_cancel)
 	global.stateBuy = false
 	StartPrep()
 }

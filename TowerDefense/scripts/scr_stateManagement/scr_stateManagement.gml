@@ -1,6 +1,7 @@
 
 function StartPrep()
 {
+	global.stateWaveOver = false
 	global.statePrep = true
 	global.stateWave = false
 	global.stateUpgrade = false
@@ -17,9 +18,12 @@ function EndPrep()
 
 function StartWave()
 {
+	global.stateWaveOver = false
 	global.stateWave = true
 	EndPrep()
 	global.stateUpgrade = false
+	timeline_index = global.waves[global.currentWave]
+	timeline_running = true
 	global.currentWave++
 }
 

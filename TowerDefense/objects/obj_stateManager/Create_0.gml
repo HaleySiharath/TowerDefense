@@ -6,6 +6,7 @@ global.stateMove = false // whether the player is currently moving a tower
 global.stateBuy = false // whether the player is currently buying a tower
 global.stateWin = false // whether the player has won
 global.stateLose = false // whether the player has lost
+global.stateWaveOver = false
 
 global.currentWave = 0 // the current wave that the player is on
 global.health = 100 // the current amount of health the player has
@@ -28,5 +29,15 @@ for (i = 0; i <= 10; i++)
 }
 
 UpdateEnemyPath()
+
+global.waves = []
+LoadWaves()
+
+global.toSpawn = []
+
+global.enemyList = []
+LoadEnemyList()
+
+global.currentEnemies = 0
 
 StartPrep()

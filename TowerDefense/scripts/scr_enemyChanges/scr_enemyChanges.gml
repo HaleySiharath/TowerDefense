@@ -2,8 +2,8 @@
 function NewEnemyChanges()
 {
 	enemyChanges = {
-		speedPercent: 0,
-		healthPercent: 0
+		speedPercent: 1,
+		healthPercent: 1
 	}
 	return enemyChanges
 }

@@ -18,17 +18,17 @@ function EndPrep()
 
 function StartWave()
 {
+	show_debug_message("Starting Wave")
 	global.stateWaveOver = false
 	global.stateWave = true
 	EndPrep()
 	global.stateUpgrade = false
-	timeline_index = global.waves[global.currentWave]
-	timeline_running = true
-	global.currentWave++
+	instance_create_layer(0, 0, "Enemys", obj_base_spawner)
 }
 
 function EndWave()
 {
+	instance_destroy(obj_base_spawner)
 	global.stateWave = false
 	if (global.stateInfo)
 	{

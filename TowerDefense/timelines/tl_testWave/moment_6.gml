@@ -1,1 +1,1 @@
-AddToSpawn(0)
+global.stateWaveOver = true

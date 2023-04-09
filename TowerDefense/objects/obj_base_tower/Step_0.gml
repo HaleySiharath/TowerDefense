@@ -1,21 +1,42 @@
 /// @description if enemy is in range then make a projectile
 
 // set list to current obejcts in range
-enemysInRange = ds_list_create();
+enemysInRange = []
+enemys = []
 
-collisionNum = collision_circle_list(x, y, range, obj_base_enemy, false, true, enemysInRange, true);
+for (i = 0; i < instance_number(obj_base_enemy); i++)
+{
+	enemys[i] = instance_find(obj_base_enemy, i)
+}
 
-//show_debug_message(enemysInRange);
+for (i = 0; i < array_length(enemys); i++)
+{
+	if (distance_to_object(enemys[i]) < range)
+	{
+		array_insert(enemysInRange, array_length(enemysInRange), enemys[i])
+	}
+}
 
-if(collisionNum > 0)
+if(array_length(enemysInRange) > 0 and timeCounter <= 0)
 {
 	// get the closest enemy
 	//target = enemysInRange[| 0];
+	farthestEnemy = enemysInRange[0]
+	for (i = 0; i < array_length(enemysInRange); i++)
+	{
+		if (enemysInRange[i].path_position > farthestEnemy.path_position)
+		{
+			farthestEnemy = enemysInRange[i]
+		}
+	}
 	
+	bullet = instance_create_layer(x, y, "Towers", projectileObject)
+	bullet.direction = point_direction(x, y, farthestEnemy.x, farthestEnemy.y)
 	
-	//https://manual.yoyogames.com/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/point_direction.htm
-	alarm[0] = attackSpeed;
+	timeCounter = attackSpeed * room_speed
 }
 
-ds_list_clear(enemysInRange);
+timeCounter--
+
+enemysInRange = []
 

@@ -18,7 +18,6 @@ function EndPrep()
 
 function StartWave()
 {
-	show_debug_message("Starting Wave")
 	global.stateWaveOver = false
 	global.stateWave = true
 	EndPrep()

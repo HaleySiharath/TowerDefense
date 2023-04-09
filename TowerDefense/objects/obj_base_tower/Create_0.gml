@@ -1,0 +1,1 @@
+timeCounter = 0

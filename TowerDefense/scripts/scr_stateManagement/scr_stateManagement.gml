@@ -34,7 +34,14 @@ function EndWave()
 	{
 		HideInfo()
 	}
-	StartUpgrade()
+	if (global.currentWave == array_length(global.waves))
+	{
+		room_goto(room_win)
+	}
+	else
+	{
+		StartUpgrade()
+	}
 }
 
 function StartUpgrade()
@@ -77,12 +84,14 @@ function StartBuy()
 {
 	EndPrep()
 	instance_create_layer(1620, 780, "UI", obj_btn_cancel)
+	instance_create_layer(0, 0, "Towers", obj_towerPlacement)
 	global.stateBuy = true
 }
 
 function StopBuy()
 {
 	instance_destroy(obj_btn_cancel)
+	instance_destroy(obj_towerPlacement)
 	global.stateBuy = false
 	StartPrep()
 }

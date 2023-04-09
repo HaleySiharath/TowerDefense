@@ -9,7 +9,7 @@ global.stateLose = false // whether the player has lost
 global.stateWaveOver = false
 
 global.currentWave = 0 // the current wave that the player is on
-global.health = 100 // the current amount of health the player has
+global.health = 10 // the current amount of health the player has
 global.money = 200 // the current amount of money (souls) the player has
 
 // create grid for tower placement and enemy pathing

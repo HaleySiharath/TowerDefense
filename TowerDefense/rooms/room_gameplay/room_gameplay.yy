@@ -21,7 +21,6 @@
     {"resourceType":"GMRPathLayer","resourceVersion":"1.0","name":"Path_1","pathId":{"name":"pt_enemy","path":"paths/pt_enemy/pt_enemy.yy",},"colour":4278190335,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Towers","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_59FCA71B","properties":[],"isDnd":false,"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":736.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6489F1E6","properties":[],"isDnd":false,"objectId":{"name":"obj_towerPlacement","path":"objects/obj_towerPlacement/obj_towerPlacement.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":60.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D785963","properties":[],"isDnd":false,"objectId":{"name":"obj_stateManager","path":"objects/obj_stateManager/obj_stateManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":300.0,"y":60.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":60,"gridY":60,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Enemys","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":60,"gridY":60,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -36,7 +35,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_59FCA71B","path":"rooms/room_gameplay/room_gameplay.yy",},
-    {"name":"inst_6489F1E6","path":"rooms/room_gameplay/room_gameplay.yy",},
     {"name":"inst_2D785963","path":"rooms/room_gameplay/room_gameplay.yy",},
   ],
   "inheritCreationOrder": false,

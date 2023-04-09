@@ -48,6 +48,7 @@
     {"id":{"name":"obj_tower_icicle_launcher","path":"objects/obj_tower_icicle_launcher/obj_tower_icicle_launcher.yy",},"order":8,},
     {"id":{"name":"spr_button_main_play","path":"sprites/spr_button_main_play/spr_button_main_play.yy",},"order":1,},
     {"id":{"name":"obj_base_spawner","path":"objects/obj_base_spawner/obj_base_spawner.yy",},"order":7,},
+    {"id":{"name":"room_win","path":"rooms/room_win/room_win.yy",},"order":2,},
     {"id":{"name":"spr_towerPlacementTest","path":"sprites/spr_towerPlacementTest/spr_towerPlacementTest.yy",},"order":7,},
     {"id":{"name":"obj_projectile_railgun","path":"objects/obj_projectile_railgun/obj_projectile_railgun.yy",},"order":6,},
     {"id":{"name":"obj_tower_crossbow","path":"objects/obj_tower_crossbow/obj_tower_crossbow.yy",},"order":0,},
@@ -63,6 +64,7 @@
     {"id":{"name":"obj_projectile_crossbow","path":"objects/obj_projectile_crossbow/obj_projectile_crossbow.yy",},"order":2,},
     {"id":{"name":"scr_stateManagement","path":"scripts/scr_stateManagement/scr_stateManagement.yy",},"order":2,},
     {"id":{"name":"spr_add_placeholder","path":"sprites/spr_add_placeholder/spr_add_placeholder.yy",},"order":4,},
+    {"id":{"name":"room_lose","path":"rooms/room_lose/room_lose.yy",},"order":3,},
     {"id":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"order":1,},
     {"id":{"name":"scr_enemy_animation","path":"scripts/scr_enemy_animation/scr_enemy_animation.yy",},"order":0,},
     {"id":{"name":"obj_tower_sniper","path":"objects/obj_tower_sniper/obj_tower_sniper.yy",},"order":1,},
@@ -91,6 +93,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"room_mainMenu","path":"rooms/room_mainMenu/room_mainMenu.yy",},},
     {"roomId":{"name":"room_gameplay","path":"rooms/room_gameplay/room_gameplay.yy",},},
+    {"roomId":{"name":"room_win","path":"rooms/room_win/room_win.yy",},},
+    {"roomId":{"name":"room_lose","path":"rooms/room_lose/room_lose.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

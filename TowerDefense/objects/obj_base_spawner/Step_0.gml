@@ -3,7 +3,11 @@
 
 SpawnEnemy(self)
 
-if (global.stateWaveOver and array_length(global.currentEnemies))
+if (global.health == 0)
+{
+	room_goto(room_lose)
+}
+else if (global.stateWaveOver and global.currentEnemies == 0)
 {
 	EndWave()
 }

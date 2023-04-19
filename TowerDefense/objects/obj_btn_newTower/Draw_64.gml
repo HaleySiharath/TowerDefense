@@ -12,8 +12,19 @@ recY2 = y + (sprite_height / 2);
 // place rectangle within the square to appear as a button
 draw_rectangle(recX1, recY1	, recX2, recY2, false);
 
-draw_sprite_stretched(tower_sprite, 0, recX1 + 10, recY1 + 10, 110, 110);
+draw_sprite_stretched(tower_sprite, 0, recX1 + 5, recY1 + 5, 110, 110);
 
 
 // text to indicate tower type
-draw_set_font
+draw_set_font(ft_tower_name);
+draw_set_color(c_white);
+draw_set_alpha(1); // opacte
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+draw_text(x, y + 80, tower_name);
+
+// text to indicate price of tower
+draw_set_font(ft_tower_price);
+price_text = string(tower_price) + " f";
+draw_text(x, y + 103, price_text);

@@ -4,13 +4,18 @@ global.stateUpgrade = false // whether the game is in the upgrade state
 global.stateInfo = false // whether the player has the info window displayed
 global.stateMove = false // whether the player is currently moving a tower
 global.stateBuy = false // whether the player is currently buying a tower
+global.stateMove = false // player is moving towers
 global.stateWin = false // whether the player has won
 global.stateLose = false // whether the player has lost
 global.stateWaveOver = false
+global.stateDelete = false // whether the game is delete mode
+
 
 global.currentWave = 0 // the current wave that the player is on
 global.health = 10 // the current amount of health the player has
 global.money = 200 // the current amount of money (souls) the player has
+
+global.currentTowerClicked = 0 // used to store current tower clicked
 
 // create grid for tower placement and enemy pathing
 for (i = 0; i < 18; i++)

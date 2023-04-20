@@ -12,6 +12,18 @@ if (CheckPlacementAvailable())
 	// create an instance on the map of the tower item clicked
 	instance_create_layer(x, y, "Towers", tower_object);
 	
-	// exit buying mode (show the tower menu and delete the cancle button)
-	StopBuy()
+	if(global.stateBuy == true)
+	{	
+		// exit buying mode (show the tower menu and delete the cancle button)
+		StopBuy()
+	}
+	
+	else if (global.stateMove == true)
+	{	
+		// set the current object clicked to 0
+		global.currentTowerClicked = 0;
+		
+		// destroy tower placement object
+		instance_destroy(self);
+	}
 }

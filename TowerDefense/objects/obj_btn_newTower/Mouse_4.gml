@@ -1,1 +1,1 @@
-StartBuy()
+StartBuy(tower_object, tower_radius)

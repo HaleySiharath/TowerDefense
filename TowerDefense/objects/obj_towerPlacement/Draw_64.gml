@@ -7,5 +7,5 @@ if (CheckPlacementAvailable())
 	draw_set_color(c_green);
 
 	// draw a circle to represent range (moves with tower) 
-	draw_circle(x, y, range, true);
+	draw_circle(x, y, radius, true);
 }

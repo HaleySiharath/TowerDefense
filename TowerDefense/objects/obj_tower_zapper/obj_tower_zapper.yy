@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_tower_zapper",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_base_tower",
+    "path": "sprites/spr_base_tower/spr_base_tower.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -28,6 +31,8 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"projectileObject","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_projectile_zapper",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"weaponSprite","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"spr_zapper",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"type","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_tower_zapper",},
   ],
   "parent": {
     "name": "Towers",

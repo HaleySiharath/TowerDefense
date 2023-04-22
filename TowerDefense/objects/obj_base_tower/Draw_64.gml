@@ -8,4 +8,4 @@ draw_circle(x, y, range, true);
 
 
 // draw a sprite 
-draw_sprite_stretched(weaponSprite, 0, x - 40 , y - 40, 80, 80)
+draw_sprite_ext(weaponSprite, 0, x, y, 1.2, 1.2, weaponDirection + 245, c_white, 1)

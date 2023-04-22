@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_cannon",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_cannon",
+    "path": "sprites/spr_projectile_cannon/spr_projectile_cannon.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -26,7 +29,9 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"34",},
+  ],
   "parent": {
     "name": "Projectiles",
     "path": "folders/Objects/Projectiles.yy",

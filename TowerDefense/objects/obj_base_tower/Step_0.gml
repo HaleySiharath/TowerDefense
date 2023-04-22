@@ -32,7 +32,7 @@ if(array_length(enemysInRange) > 0 and timeCounter <= 0)
 	
 	bullet = instance_create_layer(x, y, "Towers", projectileObject)
 	bullet.direction = point_direction(x, y, farthestEnemy.x, farthestEnemy.y)
-	
+	weaponDirection = bullet.direction;
 	timeCounter = attackSpeed * room_speed
 }
 

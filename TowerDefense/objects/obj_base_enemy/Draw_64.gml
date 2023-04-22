@@ -3,6 +3,7 @@
 if(damaged == true)
 {
 	shader_set(sh_enemy_damage);
+	draw_self();
 }
 else
 {

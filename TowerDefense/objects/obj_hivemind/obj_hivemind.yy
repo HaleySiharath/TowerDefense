@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hellhole",
+  "name": "obj_hivemind",
   "spriteId": {
-    "name": "spr_hellhole",
-    "path": "sprites/spr_hellhole/spr_hellhole.yy",
+    "name": "spr_hivemind",
+    "path": "sprites/spr_hivemind/spr_hivemind.yy",
   },
   "solid": false,
   "visible": true,

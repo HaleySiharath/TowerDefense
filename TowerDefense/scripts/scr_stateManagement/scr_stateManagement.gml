@@ -90,10 +90,10 @@ function StartPrep()
 	instance_create_layer(1833, 120, "UI", obj_btn_delete);
 	
 	// delete object button
-	instance_create_layer(60, 120, "UI", obj_btn_towers);
+	instance_create_layer(40, 100, "UI", obj_btn_towers);
 	
 	// delete object button
-	instance_create_layer(60, 300, "UI", obj_btn_enemys);
+	instance_create_layer(40, 280, "UI", obj_btn_enemys);
 }
 
 function EndPrep()
@@ -170,11 +170,12 @@ function StopMove()
 	StartPrep()
 }*/
 
-function StartBuy(objTower, objRadius)
+function StartBuy(objTower, objRadius, objCost)
 {
 	EndPrep()
 	instance_create_layer(1620, 780, "UI", obj_btn_cancel)
 	placementObj = instance_create_layer(0, 0, "Towers", obj_towerPlacement)
+	placementObj.cost = objCost;
 	placementObj.tower_object = objTower;
 	placementObj.radius = objRadius;
 	global.stateBuy = true

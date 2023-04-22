@@ -14,6 +14,8 @@ if (CheckPlacementAvailable())
 	
 	if(global.stateBuy == true)
 	{	
+		global.money -= cost;
+		
 		// exit buying mode (show the tower menu and delete the cancle button)
 		StopBuy()
 	}

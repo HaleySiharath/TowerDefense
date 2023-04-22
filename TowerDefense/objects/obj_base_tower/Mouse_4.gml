@@ -30,8 +30,8 @@ if(global.stateDelete == true)
 {
 	// remove from current grid space
 	global.grid[xPos][yPos] = false;
-	// add price back
-	global.money += cost;
+	// get money back for selling tower
+	global.money += cost / 2;
 		
 	instance_destroy(self);
 }

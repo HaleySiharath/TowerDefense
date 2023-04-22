@@ -2,6 +2,8 @@
 
 // have enemy change their sprite for correct walking animation
 function enemyMovement(enemy){
+	
+	
 	// change sprite based on direction
 	
 	if(enemy.direction >= 0 && enemy.direction < 45)
@@ -23,5 +25,9 @@ function enemyMovement(enemy){
 	{
 		enemy.sprite_index = enemy.enemySpriteDown;
 	}
-	
+	else
+	{
+		enemy.sprite_index = undefined;
+	}
+
 }

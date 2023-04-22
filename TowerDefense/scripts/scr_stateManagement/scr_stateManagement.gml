@@ -88,6 +88,12 @@ function StartPrep()
 	
 	// delete object button
 	instance_create_layer(1833, 120, "UI", obj_btn_delete);
+	
+	// delete object button
+	instance_create_layer(60, 120, "UI", obj_btn_towers);
+	
+	// delete object button
+	instance_create_layer(60, 300, "UI", obj_btn_enemys);
 }
 
 function EndPrep()
@@ -97,6 +103,8 @@ function EndPrep()
 	instance_destroy(obj_btn_nextWave)
 	instance_destroy(obj_btn_moveTower)
 	instance_destroy(obj_btn_delete)
+	instance_destroy(obj_btn_towers)
+	instance_destroy(obj_btn_enemys)
 }
 
 function StartWave()

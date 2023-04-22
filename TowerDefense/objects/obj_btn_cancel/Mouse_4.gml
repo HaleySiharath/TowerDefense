@@ -14,3 +14,9 @@ else if(global.stateDelete == true)
 {
 	StopDelete()
 }
+
+else
+{
+	HideInfo();
+	room_goto(room_gameplay);
+}

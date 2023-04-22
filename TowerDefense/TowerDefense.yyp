@@ -7,6 +7,7 @@
     {"id":{"name":"spr_button_main_exit","path":"sprites/spr_button_main_exit/spr_button_main_exit.yy",},"order":0,},
     {"id":{"name":"spr_dirt","path":"sprites/spr_dirt/spr_dirt.yy",},"order":8,},
     {"id":{"name":"obj_projectile_shotgun","path":"objects/obj_projectile_shotgun/obj_projectile_shotgun.yy",},"order":5,},
+    {"id":{"name":"spr_soul_coin","path":"sprites/spr_soul_coin/spr_soul_coin.yy",},"order":19,},
     {"id":{"name":"spr_icicle_launcher","path":"sprites/spr_icicle_launcher/spr_icicle_launcher.yy",},"order":5,},
     {"id":{"name":"obj_tower_freezer","path":"objects/obj_tower_freezer/obj_tower_freezer.yy",},"order":9,},
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":13,},

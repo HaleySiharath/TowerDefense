@@ -6,7 +6,11 @@ enemyMovement(self);
 
 if (self.health <= 0)
 {
-	instance_destroy(self)
+	global.money += souls;
+	sprite_index = spr_soul_coin;
+	sprite_set_speed(sprite_index, 10, spritespeed_framespersecond);
+	speed = 0;
+	alarm[1] = 4;
 }
 
 if (path_position == 1)

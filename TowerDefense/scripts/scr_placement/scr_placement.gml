@@ -3,6 +3,21 @@ global.yStart = 17
 global.xEnd = 17
 global.yEnd = 0
 
+function FindNearestPlacementCoor(xBlock, yBlock)
+{
+	xPos = xBlock
+	yPos = yBlock
+	xPos -= 420
+	gridSize = 60
+	xPos -= gridSize / 2
+	yPos -= gridSize / 2
+	xPos = round(xPos / gridSize)
+	yPos = round(yPos / gridSize)
+	xPos = clamp(xPos, 0, 17)
+	yPos = clamp(yPos, 0, 17)
+	return [xPos, yPos]
+}
+
 function FindNearestPlacement()
 {
 	xPos = mouse_x

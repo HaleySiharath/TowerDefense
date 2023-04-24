@@ -21,7 +21,6 @@
     {"id":{"name":"ft_tower_name","path":"fonts/ft_tower_name/ft_tower_name.yy",},"order":0,},
     {"id":{"name":"obj_stateManager","path":"objects/obj_stateManager/obj_stateManager.yy",},"order":9,},
     {"id":{"name":"wave25","path":"timelines/wave25/wave25.yy",},"order":24,},
-    {"id":{"name":"wave","path":"timelines/wave/wave.yy",},"order":4,},
     {"id":{"name":"wave38","path":"timelines/wave38/wave38.yy",},"order":37,},
     {"id":{"name":"obj_enemy_elemental","path":"objects/obj_enemy_elemental/obj_enemy_elemental.yy",},"order":5,},
     {"id":{"name":"scr_waveInteractions","path":"scripts/scr_waveInteractions/scr_waveInteractions.yy",},"order":7,},

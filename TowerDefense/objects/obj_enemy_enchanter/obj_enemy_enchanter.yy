@@ -35,7 +35,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"maxHealth","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"40",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"pathSpeed","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"1.6",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"deathSpeed","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"2",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"deathSpeedTime","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"deathSpeedTime","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"1",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"frost","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"objectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},"value":"True",},
   ],
   "parent": {

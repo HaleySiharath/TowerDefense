@@ -1,0 +1,1 @@
+AddToSpawn(3)

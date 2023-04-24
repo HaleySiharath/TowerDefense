@@ -1,0 +1,5 @@
+AddToSpawn(6)
+AddToSpawn(3)
+AddToSpawn(6)
+AddToSpawn(3)
+AddToSpawn(6)

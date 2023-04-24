@@ -9,8 +9,8 @@ draw_set_valign(fa_top);
 
 // draw current stats (health and money)
 draw_text(50, 420, "Health: " + string(global.health));
-
-draw_text(50, 480, "Souls: " + string(global.money));
+draw_text(50, 460, "Souls: " + string(global.money));
+draw_text(50, 500, "Wave: " + string(global.currentWave));
 
 dialogueX = display_get_gui_width() / 2;
 dialogueY = display_get_gui_height() - (display_get_gui_height() / 7);

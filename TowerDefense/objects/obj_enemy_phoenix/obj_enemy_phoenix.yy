@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_phoenix",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_phoenix",
+    "path": "sprites/spr_enemy_phoenix/spr_enemy_phoenix.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

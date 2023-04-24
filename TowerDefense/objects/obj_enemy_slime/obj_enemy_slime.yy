@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_slime",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_slime",
+    "path": "sprites/spr_enemy_slime/spr_enemy_slime.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

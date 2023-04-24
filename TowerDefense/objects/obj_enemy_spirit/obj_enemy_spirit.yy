@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_spirit",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_spirit",
+    "path": "sprites/spr_enemy_spirit/spr_enemy_spirit.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

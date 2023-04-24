@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_necromancer",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_necromancer",
+    "path": "sprites/spr_enemy_necromancer/spr_enemy_necromancer.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

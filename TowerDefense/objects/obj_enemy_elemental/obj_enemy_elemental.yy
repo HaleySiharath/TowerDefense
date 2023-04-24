@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_elemental",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_elemental",
+    "path": "sprites/spr_enemy_elemental/spr_enemy_elemental.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

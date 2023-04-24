@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_enchanter",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_enchanter",
+    "path": "sprites/spr_enemy_enchanter/spr_enemy_enchanter.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

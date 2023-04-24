@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_enemy_golem",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_enemy_golem",
+    "path": "sprites/spr_enemy_golem/spr_enemy_golem.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

@@ -5,6 +5,7 @@ image_yscale = 0.5
 
 damaged = false;
 
+alarm[10] = demonSpawnTime * room_speed
 
 global.currentEnemies++
 

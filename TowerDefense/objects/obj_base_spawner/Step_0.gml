@@ -3,7 +3,7 @@
 
 SpawnEnemy(self)
 
-if (global.health == 0)
+if (global.health <= 0)
 {
 	room_goto(room_lose)
 }

@@ -67,6 +67,7 @@
     {"id":{"name":"obj_base_spawner","path":"objects/obj_base_spawner/obj_base_spawner.yy",},"order":7,},
     {"id":{"name":"room_win","path":"rooms/room_win/room_win.yy",},"order":2,},
     {"id":{"name":"spr_towerPlacementTest","path":"sprites/spr_towerPlacementTest/spr_towerPlacementTest.yy",},"order":5,},
+    {"id":{"name":"wave1","path":"timelines/wave1/wave1.yy",},"order":1,},
     {"id":{"name":"obj_btn_enemys","path":"objects/obj_btn_enemys/obj_btn_enemys.yy",},"order":5,},
     {"id":{"name":"spr_move_placeholder","path":"sprites/spr_move_placeholder/spr_move_placeholder.yy",},"order":8,},
     {"id":{"name":"obj_projectile_railgun","path":"objects/obj_projectile_railgun/obj_projectile_railgun.yy",},"order":6,},

@@ -9,40 +9,40 @@ if(keyboard_check_pressed(ord("M")))
 // go to wave 5
 if(keyboard_check_pressed(ord("1")))
 {
-	global.wave = 5;
+	global.currentWave = 5;
 }
 
 // go to wave 10
 if(keyboard_check_pressed(ord("2")))
 {
-	global.wave = 10;
+	global.currentWave = 10;
 }
 
 
 // go to wave 15
 if(keyboard_check_pressed(ord("3")))
 {
-	global.wave = 15;
+	global.currentWave = 15;
 }
 
 
 // go to wave 20
 if(keyboard_check_pressed(ord("4")))
 {
-	global.wave = 20;
+	global.currentWave = 20;
 }
 
 // go to wave 25
 if(keyboard_check_pressed(ord("5")))
 {
-	global.wave = 25;
+	global.currentWave = 25;
 }
 
 
 // go to wave 30
 if(keyboard_check_pressed(ord("6")))
 {
-	global.wave = 30;
+	global.currentWave = 30;
 }
 
 
@@ -50,7 +50,7 @@ if(keyboard_check_pressed(ord("6")))
 // go to wave 35
 if(keyboard_check_pressed(ord("7")))
 {
-	global.wave = 35;
+	global.currentWave = 35;
 }
 
 
@@ -58,7 +58,7 @@ if(keyboard_check_pressed(ord("7")))
 // go to wave 40
 if(keyboard_check_pressed(ord("8")))
 {
-	global.wave = 40;
+	global.currentWave = 40;
 }
 
 
@@ -66,7 +66,14 @@ if(keyboard_check_pressed(ord("8")))
 // go to wave 45
 if(keyboard_check_pressed(ord("9")))
 {
-	global.wave = 45;
+	global.currentWave = 45;
+}
+
+
+// go to wave 49 final wave
+if(keyboard_check_pressed(ord("0")))
+{
+	global.currentWave = 37;
 }
 
 

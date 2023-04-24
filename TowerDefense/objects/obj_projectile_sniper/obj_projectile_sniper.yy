@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_sniper",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_sniper",
+    "path": "sprites/spr_projectile_icicle_sniper/spr_projectile_icicle_sniper.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

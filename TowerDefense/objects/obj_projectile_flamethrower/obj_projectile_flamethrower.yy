@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_flamethrower",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_flamethrower",
+    "path": "sprites/spr_projectile_flamethrower/spr_projectile_flamethrower.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

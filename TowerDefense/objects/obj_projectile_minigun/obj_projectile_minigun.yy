@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_minigun",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_minigun",
+    "path": "sprites/spr_projectile_icicle_minigun/spr_projectile_icicle_minigun.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

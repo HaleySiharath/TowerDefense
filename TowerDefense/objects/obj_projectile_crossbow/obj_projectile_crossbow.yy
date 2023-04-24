@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_crossbow",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_crossbow",
+    "path": "sprites/spr_projectile_crossbow/spr_projectile_crossbow.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

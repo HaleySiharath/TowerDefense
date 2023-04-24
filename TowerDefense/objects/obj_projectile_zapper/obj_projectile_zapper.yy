@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_zapper",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_zapper",
+    "path": "sprites/spr_projectile_icicle_zapper/spr_projectile_icicle_zapper.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

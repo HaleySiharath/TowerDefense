@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_shotgun",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_shotgun",
+    "path": "sprites/spr_projectile_icicle_shotgun/spr_projectile_icicle_shotgun.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

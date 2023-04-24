@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_freezer",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_freezer",
+    "path": "sprites/spr_projectile_freezer/spr_projectile_freezer.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_railgun",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_railgun",
+    "path": "sprites/spr_projectile_icicle_railgun/spr_projectile_icicle_railgun.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

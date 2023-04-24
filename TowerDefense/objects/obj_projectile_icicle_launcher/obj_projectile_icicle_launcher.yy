@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_projectile_icicle_launcher",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_projectile_icicle_launcher",
+    "path": "sprites/spr_projectile_icicle_launcher/spr_projectile_icicle_launcher.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

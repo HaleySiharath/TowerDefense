@@ -105,6 +105,7 @@
     {"id":{"name":"tls_dirt","path":"tilesets/tls_dirt/tls_dirt.yy",},"order":7,},
     {"id":{"name":"sh_enemy_frozen","path":"shaders/sh_enemy_frozen/sh_enemy_frozen.yy",},"order":1,},
     {"id":{"name":"obj_tower_icicle_launcher","path":"objects/obj_tower_icicle_launcher/obj_tower_icicle_launcher.yy",},"order":8,},
+    {"id":{"name":"sound_background","path":"sounds/sound_background/sound_background.yy",},"order":0,},
     {"id":{"name":"spr_button_main_play","path":"sprites/spr_button_main_play/spr_button_main_play.yy",},"order":1,},
     {"id":{"name":"wave6","path":"timelines/wave6/wave6.yy",},"order":5,},
     {"id":{"name":"wave8","path":"timelines/wave8/wave8.yy",},"order":7,},

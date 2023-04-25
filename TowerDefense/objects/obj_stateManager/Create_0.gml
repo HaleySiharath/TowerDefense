@@ -11,6 +11,8 @@ global.stateWaveOver = false
 global.stateDelete = false // whether the game is delete mode
 
 
+audio_play_sound(sound_background, 10, true);
+
 global.menuItem = 1;
 
 global.currentWave = 0 // the current wave that the player is on

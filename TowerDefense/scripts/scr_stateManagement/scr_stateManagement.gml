@@ -88,12 +88,6 @@ function StartPrep()
 	
 	// delete object button
 	instance_create_layer(1833, 120, "UI", obj_btn_delete);
-	
-	// delete object button
-	instance_create_layer(40, 100, "UI", obj_btn_towers);
-	
-	// delete object button
-	instance_create_layer(40, 280, "UI", obj_btn_enemys);
 }
 
 function EndPrep()

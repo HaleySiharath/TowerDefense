@@ -27,9 +27,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_base_enemy","path":"objects/obj_base_enemy/obj_base_enemy.yy",},},
+  ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"frost","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"True",},
+  ],
   "parent": {
     "name": "Projectiles",
     "path": "folders/Objects/Projectiles.yy",

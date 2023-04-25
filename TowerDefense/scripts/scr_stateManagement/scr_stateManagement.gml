@@ -14,70 +14,70 @@ function StartPrep()
 	button1.tower_object = obj_tower_cannon;
 	button1.tower_name = "Cannon";
 	button1.tower_price = 100;
-	button1.tower_radius = 200;
+	button1.tower_radius = 150;
 
 	button2 = instance_create_layer(1800, 240, "UI", obj_btn_newTower);
 	button2.tower_sprite = spr_crossbow;
 	button2.tower_object = obj_tower_crossbow;
 	button2.tower_name = "Crossbow";
-	button2.tower_price = 100;
-	button2.tower_radius = 100;
+	button2.tower_price = 50;
+	button2.tower_radius = 125;
 	
 	button3 = instance_create_layer(1620, 420, "UI", obj_btn_newTower);
 	button3.tower_sprite = spr_flamethrower;
 	button3.tower_object = obj_tower_flamethrower;
 	button3.tower_name = "Flamethrower";
-	button3.tower_price = 100;
+	button3.tower_price = 115;
 	button3.tower_radius = 100;
 	
 	button4 = instance_create_layer(1800, 420, "UI", obj_btn_newTower);
 	button4.tower_sprite = spr_freezer;
 	button4.tower_object = obj_tower_freezer;
 	button4.tower_name = "Freezer";
-	button4.tower_price = 100;
+	button4.tower_price = 175;
 	button4.tower_radius = 100;
 	
 	button5 = instance_create_layer(1620, 600, "UI", obj_btn_newTower);
 	button5.tower_sprite = spr_icicle_launcher;
 	button5.tower_object = obj_tower_icicle_launcher;
 	button5.tower_name = "Icicle Launcher";
-	button5.tower_price = 100;
+	button5.tower_price = 200;
 	button5.tower_radius = 100;
 	
 	button6 = instance_create_layer(1800, 600, "UI", obj_btn_newTower);
 	button6.tower_sprite = spr_minigun;
 	button6.tower_object = obj_tower_minigun;
 	button6.tower_name = "Minigun";
-	button6.tower_price = 100;
-	button6.tower_radius = 100;
+	button6.tower_price = 275;
+	button6.tower_radius = 150;
 	
 	button7 = instance_create_layer(1620, 780, "UI", obj_btn_newTower);
 	button7.tower_sprite = spr_railgun;
 	button7.tower_object = obj_tower_railgun;
 	button7.tower_name = "Railgun";
-	button7.tower_price = 100;
-	button7.tower_radius = 100;
+	button7.tower_price = 200;
+	button7.tower_radius = 200;
 	
 	button8 = instance_create_layer(1800, 780, "UI", obj_btn_newTower);
 	button8.tower_sprite = spr_shotgun;
 	button8.tower_object = obj_tower_shotgun;
 	button8.tower_name = "Shotgun";
-	button8.tower_price = 100;
+	button8.tower_price = 200;
 	button8.tower_radius = 100;
 	
 	button9 = instance_create_layer(1620, 960, "UI", obj_btn_newTower);
 	button9.tower_sprite = spr_sniper;
 	button9.tower_object = obj_tower_sniper;
 	button9.tower_name = "Sniper";
-	button9.tower_price = 100;
-	button9.tower_radius = 100;
+	button9.tower_price = 250;
+	button9.tower_radius = 300;
 	
 	button10 = instance_create_layer(1800, 960, "UI", obj_btn_newTower);
 	button10.tower_sprite = spr_zapper;
 	button10.tower_object = obj_tower_zapper;
 	button10.tower_name = "Zapper";
-	button10.tower_price = 100;
-	button10.tower_radius = 100;
+	button10.tower_price = 1000;
+	button10.tower_radius = 150;
 	
 	
 	// start wave button

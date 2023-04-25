@@ -62,3 +62,7 @@ if (path_position == 1)
 	instance_destroy(self)
 }
 
+if(frozen == true)
+{
+	path_speed = pathSpeed;
+}

@@ -30,7 +30,8 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"34",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"damage","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"30",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"speedBullet","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"objectId":{"name":"obj_base_projectile","path":"objects/obj_base_projectile/obj_base_projectile.yy",},"value":"5",},
   ],
   "parent": {
     "name": "Projectiles",

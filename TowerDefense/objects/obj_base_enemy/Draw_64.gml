@@ -1,6 +1,12 @@
 /// @description draw with shader
 
-if(damaged == true)
+
+ if(frozen == true)
+{
+	shader_set(sh_enemy_frozen);
+	draw_self();
+}
+else if(damaged == true)
 {
 	shader_set(sh_enemy_damage);
 	draw_self();

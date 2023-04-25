@@ -33,6 +33,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"projectileObject","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_projectile_icicle_launcher",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"weaponSprite","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"spr_icicle_launcher",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"type","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_tower_icicle_launcher",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cost","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"200",},
   ],
   "parent": {
     "name": "Towers",

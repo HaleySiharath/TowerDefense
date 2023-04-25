@@ -33,6 +33,10 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"projectileObject","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_projectile_zapper",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"weaponSprite","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"spr_zapper",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"type","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"obj_tower_zapper",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"range","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"150",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"attackSpeed","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"0.8",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"projectileCount","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cost","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"400",},
   ],
   "parent": {
     "name": "Towers",

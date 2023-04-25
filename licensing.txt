@@ -1,8 +1,12 @@
-Artwork drawn by Rachael Nguyen
-All sprites created by Gabriel Fuller.
+Artwork drawn by Rachael Nguyen (2023).
+All sprites created by Gabriel Fuller (2023).
 
 Win and Lose text images found from the below links respectively.
 https://www.google.com/search?q=you+win+text+black+and+white&tbm=isch&ved=2ahUKEwiEl6Tt5pv-AhX4koQIHfM0DAAQ2-cCegQIABAA&oq=you+win+text+black+and+white&gs_lcp=CgNpbWcQAzIECCMQJ1CNL1ixNWC7QWgAcAB4AIABPYgBxwKSAQE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=wSkyZMSyL_ilkvQP8-kw&bih=880&biw=1903&rlz=1C1CHBF_enUS926US926&hl=en#imgrc=l2UskeQ-8LaufM
 https://www.google.com/search?q=you+lose+text+black+and+white&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enUS926US926&sa=X&ved=2ahUKEwjI18Xo5pv-AhUReTABHYwCDqIQzKUFegQIARAp&biw=1903&bih=880#imgrc=A3lbEOTVKTmUhM
+
+
+Tower Defense Theme by DST (CC0-opengameart.org).
+https://opengameart.org/content/tower-defense-theme
 
 All other assets created within GameMaker

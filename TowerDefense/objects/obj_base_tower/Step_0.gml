@@ -36,6 +36,7 @@ if (not isDisabled)
 		bullet = instance_create_layer(x, y, "Towers", projectileObject)
 		bullet.direction = point_direction(x, y, farthestEnemy.x, farthestEnemy.y)
 		weaponDirection = bullet.direction;
+		bullet.image_angle = point_direction(x, y, farthestEnemy.x, farthestEnemy.y) + 265
 		timeCounter = attackSpeed * room_speed
 	}
 

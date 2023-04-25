@@ -11,6 +11,8 @@ global.stateWaveOver = false
 global.stateDelete = false // whether the game is delete mode
 
 
+global.menuItem = 1;
+
 global.currentWave = 0 // the current wave that the player is on
 global.health = 10 // the current amount of health the player has
 global.money = 200 // the current amount of money (souls) the player has

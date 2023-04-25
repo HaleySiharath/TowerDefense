@@ -36,7 +36,7 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"range","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"150",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"attackSpeed","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"0.8",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"projectileCount","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"2",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cost","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"400",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cost","path":"objects/obj_base_tower/obj_base_tower.yy",},"objectId":{"name":"obj_base_tower","path":"objects/obj_base_tower/obj_base_tower.yy",},"value":"1000",},
   ],
   "parent": {
     "name": "Towers",
